@@ -718,11 +718,11 @@ class Window(pyglet.window.Window):
             Number representing any modifying keys that were pressed.
 
         """
-        if symbol == key.W:
+        if symbol == key.Z:
             self.strafe[0] -= 1
         elif symbol == key.S:
             self.strafe[0] += 1
-        elif symbol == key.A:
+        elif symbol == key.Q:
             self.strafe[1] -= 1
         elif symbol == key.D:
             self.strafe[1] += 1
@@ -749,11 +749,11 @@ class Window(pyglet.window.Window):
             Number representing any modifying keys that were pressed.
 
         """
-        if symbol == key.W:
+        if symbol == key.Z:
             self.strafe[0] += 1
         elif symbol == key.S:
             self.strafe[0] -= 1
-        elif symbol == key.A:
+        elif symbol == key.Q:
             self.strafe[1] += 1
         elif symbol == key.D:
             self.strafe[1] -= 1
